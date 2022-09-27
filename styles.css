@@ -17,10 +17,6 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-bottom: 50px;
-
-
-
 }
 
 .header1 {
@@ -42,19 +38,25 @@ body {
 
 .main {
     display: flex;
-    flex: auto;
-   
+    flex: auto;   
+    height: 500px;
+    align-items: center;
 }
 
-.banner {
-    
-    
+.main > * {
+    flex: 1;
+}
+
+.banner > * {
+ 
 }
 
 .maintext {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 800;
+    margin: 0;
+    padding: 0;
 }
 
 .subtext,
@@ -66,7 +68,6 @@ body {
 
 .image {
     display: flex;
-    width: 1000px;
     height: 200px;
     background-color: grey;
     justify-content: center;
