@@ -47,7 +47,8 @@ body {
 }
 
 .banner {
-   
+    
+    
 }
 
 .maintext {
@@ -65,12 +66,11 @@ body {
 
 .image {
     display: flex;
-    width: 600px;
+    width: 1000px;
     height: 200px;
     background-color: grey;
-    flex: auto;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
 
 .button {
