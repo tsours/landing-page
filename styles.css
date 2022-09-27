@@ -31,7 +31,7 @@ body {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    flex: 1 1 auto;
+    flex: auto;
     list-style: none;
     gap: 20px;
 }
@@ -45,10 +45,6 @@ body {
 
 .main > * {
     flex: 1;
-}
-
-.banner > * {
- 
 }
 
 .maintext {
@@ -81,4 +77,22 @@ body {
     border-radius: 12px;
     padding: 8px 24px;
     border: 0px;
+}
+
+.secondsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondtitle {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937; 
+
+}
+
+.boxes {
+    list-style: none;
 }
