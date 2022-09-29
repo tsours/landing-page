@@ -127,3 +127,30 @@ body {
     border-radius: 10px;
     margin: 0;
 }
+
+.thirdsection {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    padding-right: 200px;
+    height: 500px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
