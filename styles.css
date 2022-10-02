@@ -134,16 +134,18 @@ body {
     margin: 0;
 }
 
-/*.thirdsection {
+.thirdsection {
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
-    padding-left: 200px;
-    padding-right: 200px;
-    height: 500px;
+    padding: 100px 100px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.thirdsection-inner {
+    margin: 0 auto;
+    max-width: 900px;
+}
 
 .quote {
     font-size: 36px;
@@ -156,7 +158,6 @@ body {
 .author {
     display: flex;
     justify-content: flex-end;
-    margin: 0;
-    padding: 0;
     font-weight: bold;
+    font-size: 24px;
 }
