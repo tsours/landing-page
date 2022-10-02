@@ -173,29 +173,24 @@ body {
 .fourthsection-inner-block {
     background-color: #3882F6;
     border-radius: 12px;
-    max-width: 1000px;
     height: 150px;
+    max-width: 1000px;
     display: flex;
     align-items: center;
-    flex: 1;
 }
 
 .fourthsection-inner-content {
     display: flex;
     flex-direction: row;
-}
-
-.fourthsection-inner-content{
     width: 1000px;
     justify-content: center;
+    max-height: 50px;
+
 }
+
 .fourthsection-verbage > *{
     color: white;
-}
-
-.fourthsection-verbage h3 {
-    margin: 0;
-
+    margin: 1px;
 }
 
 .button2 {
@@ -205,7 +200,6 @@ body {
     font-size: 18px;
     border-radius: 12px;
     padding: 8px 24px;
-
 }
 
 .footer {
