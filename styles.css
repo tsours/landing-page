@@ -161,3 +161,47 @@ body {
     font-weight: bold;
     font-size: 24px;
 }
+
+.fourthsection {
+    background-color: white;
+    padding: 100px 100px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.fourthsection-inner-block {
+    background-color: #3882F6;
+    border-radius: 12px;
+    max-width: 1000px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.fourthsection-inner-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.fourthsection-inner-content{
+    width: 1000px;
+    justify-content: center;
+}
+.fourthsection-verbage > *{
+    color: white;
+}
+
+.fourthsection-verbage h3 {
+    margin: 0;
+
+}
+
+.button2 {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-color: white;
+    font-size: 18px;
+    border-radius: 12px;
+    padding: 8px 24px;
+
+}
