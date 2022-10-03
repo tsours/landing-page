@@ -204,11 +204,9 @@ body {
 
 .footer {
     background-color: #1f2937;
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    padding: 20px 0;
+    color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.footer-label {
-    color: white;
-}
